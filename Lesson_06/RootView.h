@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootView.h
 //  Lesson_06
 //
 //  Created by 张天琦 on 15/9/5.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface RootView : UIView
+//分段控制器
+@property (nonatomic,strong)UISegmentedControl * segmentedControl;
 @end
-
